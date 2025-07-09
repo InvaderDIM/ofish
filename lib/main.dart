@@ -112,7 +112,7 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Карта с выбором стиля'),
+        title: Text('Map with a style choice'),
         actions: [
           IconButton(
             icon: Icon(Icons.layers),
